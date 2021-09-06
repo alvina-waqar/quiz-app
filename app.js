@@ -56,9 +56,9 @@ q1 = {
   
   function checkAnswer(e) {
     var userAnswer = e;
-    // console.log(userAnswer, "userAnswer");
+   
     var correctAnswer = arr[ind].correctAns;
-    // console.log(correctAnswer, "correctAnswer");
+   
     if (userAnswer == correctAnswer) {
       score++;
       console.log(score, "score");
