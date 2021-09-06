@@ -49,10 +49,7 @@ q1 = {
     }
   }
   displayQuestion();
-  function nextQuestion() {
-    ind++;
-    displayQuestion();
-  }
+ 
   
   function checkAnswer(e) {
     var userAnswer = e;
